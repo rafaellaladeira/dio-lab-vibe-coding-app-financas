@@ -3,38 +3,93 @@
 
 ## 🎯 Desafio
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
-
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
-
-> [!IMPORTANT]
-
-## 🪄 Etapas do Desafio
-
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
-
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
-
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
 
 ```txt
 # Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+Quero criar um aplicativo de Organização de Finanças Pessoais orientado por conversa, no qual o usuário interage como se estivesse falando com um assistente humano.
+
+O app deve reduzir ao máximo o esforço cognitivo e operacional, eliminando formulários, campos obrigatórios e jargões financeiros.
+A experiência precisa ser acolhedora, simples e progressiva, permitindo que o usuário comece a se organizar sem precisar “aprender a usar” o aplicativo.
+O foco não é apenas registrar dados, mas criar hábito, consciência financeira e sensação de controle, desde o primeiro uso.
 
 # Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+A maioria das pessoas até tenta controlar seus gastos, mas desiste rapidamente porque:
+- Os apps financeiros exigem muita digitação, muitos cliques e decisões complexas
+- A linguagem é técnica e pouco amigável para iniciantes
+- O valor só aparece depois de muito esforço (gráficos, relatórios e regras difíceis de entender)
+
+Isso gera frustração, abandono e a sensação de que “controle financeiro não é para mim”.
+O problema central a ser resolvido é:
+👉 como ajudar pessoas comuns a organizarem suas finanças sem parecer um sistema financeiro tradicional.
 
 # Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Pessoas que:
+ - Nunca conseguiram manter o controle financeiro por muito tempo
+ - Sentem preguiça ou ansiedade ao usar planilhas e apps complexos
+ - Querem algo simples, guiado e humano
+
+Perfil principal:
+ - Iniciantes em educação financeira
+ - Jovens adultos e adultos que querem mais controle, mas sem complicação
+ - Usuários que preferem conversar a preencher formulários
 
 # Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+1. Registro de Gastos por Conversa Natural
+O usuário registra gastos escrevendo como falaria no dia a dia, por exemplo:
+“Gastei 45 reais no mercado”
+“Paguei 120 de internet ontem”
+“Almoço 30 reais”
+
+Experiência esperada:
+O app entende a mensagem automaticamente
+Confirma o registro de forma simples e amigável
+
+Permite correções pelo próprio chat, sem telas extras
+
+2. Classificação Automática e Invisível
+O sistema classifica os gastos sem exigir decisões do usuário.
+
+Experiência esperada:
+O usuário não precisa escolher categoria
+A IA sugere a categoria e aprende com ajustes
+Correções são feitas com frases simples:
+
+“Isso foi lazer”
+“Coloca como alimentação”
+
+3. Metas Financeiras Guiadas
+As metas devem ser definidas de forma conversacional e assistida.
+Exemplos:
+“Quero economizar 300 reais por mês”
+“Quero gastar menos com delivery”
+
+Experiência esperada:
+O app ajuda a transformar desejos vagos em metas simples
+Mostra progresso com mensagens claras, não números complexos
+Usa linguagem positiva, sem julgamento
+
+4. Agente Financeiro
+O “Agente Financeiro” é o coração da experiência.
+
+Ele deve:
+Falar de forma clara, educativa e empática
+Sugerir melhorias sem soar autoritário
+Incentivar o usuário a continuar usando o app
+
+Exemplos de interações:
+“Percebi que seus gastos com alimentação aumentaram. Quer ver algumas ideias para economizar?”
+“Você está indo bem este mês 👏”
+
+5. Relatórios Simples e Personalizados
+Os relatórios não devem intimidar.
+Experiência esperada:
+Visão resumida e visual
+Poucos números, foco em entendimento
+Sempre acompanhados de uma explicação em texto
+
+Exemplo:
+“Neste mês, você gastou mais com transporte do que no anterior”
+“Você está a 70% da sua meta de economia”
 
 # Entregável da IA
 Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
