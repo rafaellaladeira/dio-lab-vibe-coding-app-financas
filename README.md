@@ -4,8 +4,13 @@
 ## 🎯 Desafio
 
 
+<img width="1261" height="780" alt="1" src="https://github.com/user-attachments/assets/5fc1ba58-3620-48a0-a55e-fd6e897efb86" />
+<img width="1232" height="789" alt="2" src="https://github.com/user-attachments/assets/0afe0189-7bf0-4fa8-b0b6-9771ba8c1d69" />
+<img width="933" height="810" alt="3" src="https://github.com/user-attachments/assets/f11bffd0-8e39-490e-a318-be7be674d30c" />
+
 ```txt
 # Contexto
+
 Quero criar um aplicativo de Organização de Finanças Pessoais orientado por conversa, no qual o usuário interage como se estivesse falando com um assistente humano.
 
 O app deve reduzir ao máximo o esforço cognitivo e operacional, eliminando formulários, campos obrigatórios e jargões financeiros.
